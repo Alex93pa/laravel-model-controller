@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/','homeController@index' )->name('pagina-home');
+
+
+Route::get('/', 'MovieController@index')->name('movie-page');
